@@ -8,7 +8,7 @@ with open("questionsAndAnswers.txt", "r") as my_file:
     questionAndAnswer = ""
     question = ""
     answer = ""
-    response = requests.get('https://the-trivia-api.com/api/questions?categories=food_and_drink,general_knowledge,music,science,sport_and_leisure&limit=5&difficulty=easy')
+    response = requests.get('https://the-trivia-api.com/api/questions?categories=food_and_drink,general_knowledge,music,science,sport_and_leisure&limit=50&difficulty=easy')
     if response.status_code == requests.codes.ok:
         info = response.json()
         for dict in info:
