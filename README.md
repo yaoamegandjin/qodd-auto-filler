@@ -39,7 +39,7 @@ python qoddAutoFiller.py
 ```
 
 # ⚡Automate Daily Runs with Task Scheduler
-**Batch File:** ==QODDAutoFiller.bat==
+**Batch File:** <mark>QODDAutoFiller.bat<mark>
 ```batch
 @echo off
 set "venv_path=path_to_venv"
@@ -52,12 +52,12 @@ set "script_path=path_to_script"
 
 1. Open **Task Scheduler** on Windows.
 2. Create a new basic task with a daily trigger (e.g., 8:00 AM).
-3. In the **Action** step, select *Start a Program* and point it to ==QODDAutoFiller.bat==.
+3. In the **Action** step, select *Start a Program* and point it to <mark>QODDAutoFiller.bat<mark>.
 4. Save and test your task.
 
 # 📌 Notes
 - You may need to update element selectores in qoddAutoFiller.py to match your specific form's HTML structure.
-- This script maintains a log of submitted questions and answers in ==questionsAndAnswers.txt==.
+- This script maintains a log of submitted questions and answers in <mark>questionsAndAnswers.txt<mark>.
 
 
 
