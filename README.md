@@ -52,12 +52,12 @@ set "script_path=path_to_script"
 
 1. Open **Task Scheduler** on Windows.
 2. Create a new basic task with a daily trigger (e.g., 8:00 AM).
-3. In the **Action** step, select *Start a Program* and point it to <mark>QODDAutoFiller.bat<mark>.
+3. In the **Action** step, select *Start a Program* and point it to <mark>QODDAutoFiller.bat</mark>.
 4. Save and test your task.
 
 # 📌 Notes
-- You may need to update element selectors in <mark>qoddAutoFiller.py<mark> to match your specific form's HTML structure.
-- This script maintains a log of submitted questions and answers in <mark>questionsAndAnswers.txt<mark>.
+- You may need to update element selectors in <mark>qoddAutoFiller.py</mark> to match your specific form's HTML structure.
+- This script maintains a log of submitted questions and answers in <mark>questionsAndAnswers.txt</mark>.
 
 
 
