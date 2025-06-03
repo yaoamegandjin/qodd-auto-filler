@@ -26,7 +26,7 @@ cd qodd-auto-filler
 2. **Set Up Virtual Environment**
 ```powershell
 python -m venv myenv
-myenv\Scripts\Activate.ps1
+source myenv/bin/activate
 ```
 3. **Install Dependencies**
 ```bash
